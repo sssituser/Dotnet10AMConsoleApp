@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="App1/App1.csproj" Id="f73c6a90-ecb2-4080-9e2b-79c2c645665d" />
+  <Project Path="App2/App2.csproj" Id="23ffc8ad-d7f5-4bc0-bd46-6461778e9fbd" />
+  <Project Path="Dotnet10AMConsoleApp/Dotnet10AMConsoleApp.csproj" Id="404f7ddd-4a7f-4b7d-9fb6-2d39a0bd4cae" />
+  <Project Path="LoopControllStructures/LoopControllStructures.csproj" Id="bc9fdbd9-1b2e-4ac8-897e-8f1ba1ffc8bd" />
+  <Project Path="OperatorsConsoleApp/OperatorsConsoleApp.csproj" Id="2df1dfc3-77cf-4394-be7b-2e3a5ba6ee44" />
+</Solution>
