@@ -1,0 +1,115 @@
+﻿Runtime Polymorphism or Latebinding or Dynamic Binding
+Method Overrding  :
+	Defining same method with Same Parameters in the
+	Parent class and in the child class is called method overriding. 
+	Parent class method must be declared with virtual keyword
+	and child class  method with override keyword,
+
+	using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.NetworkInformation;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PolymorphismConsoleApp
+{
+    class Employee
+    {
+        int EmpId;
+        string EmpName;
+        int EmpSal;
+        public void SetEmployee(int EmpId, string EmpName, int EmpSal)
+        {
+            this.EmpId = EmpId;
+            this.EmpName = EmpName;
+            this.EmpSal = EmpSal;
+        }
+        public virtual  void Show()
+        {
+            Console.WriteLine($"Emplyee ID : {EmpId}\tEmployee Name : {EmpName}\tEmployee Salary : {EmpSal}");
+        }
+
+    }
+
+    class Department :Employee
+    {
+        int DeptId;
+        string DeptName;
+        public  Department(int DeptId,string DeptName)
+        {
+            this.DeptId = DeptId;
+            this.DeptName = DeptName;
+        }
+        public override void Show()
+        {
+            Console.WriteLine($"Deptartment ID : {DeptId}\tDepartName : {DeptName}");
+        }
+    }
+    class Testt : Employee
+    {
+        public override void Show()
+        {
+            Console.WriteLine("Hi this is  Show Method from Testt Class");
+        }
+    }
+    internal class Class3
+    {
+        static void Main(string[] args)
+        {
+            Employee emp;
+            emp = new Employee();
+            emp.SetEmployee(111, "kiran", 5000);
+            emp.Show(); // Employee Detials
+            emp = new Department(123,"HR");
+            emp.Show(); // Department Detials
+            emp = new Testt();
+            emp.Show();
+        }
+    }
+}
+
+===============================
+using System;
+
+namespace PolymorphismConsoleApp
+{
+    class Employ
+    {
+      protected  int EmpId; // They can be Inherited
+      protected string EmpName;
+        public Employ(int EmpId,string EmpName)
+        {
+            this.EmpId = EmpId;
+            this.EmpName = EmpName;
+        }
+        public override string ToString()
+        {
+            return $"EmpId : {EmpId}\tEmpName : {EmpName}";
+        }
+    }
+    class Dept :Employ
+    {
+        int DeptId;
+        string DeptName;
+        public Dept(int DeptId,string DeptName,int EmpId,string EmpName):base(EmpId,EmpName)
+        {
+            this.DeptId = DeptId;
+            this.DeptName = DeptName;
+        }
+        public override string ToString()
+        {
+            return $"EmployeeID : {EmpId}   Employee Name :{EmpName} DeptID : {DeptId}\tDeptName : {DeptName}";
+        }
+    }
+    internal class Class5
+    {
+        static void Main(string[] args)
+        {
+            Dept dept = new Dept(1234,"HR",111,"kiran");
+            Console.WriteLine(dept);
+        }
+    }
+}
+// Base keyword can be used to transfer the data from child class constructor to
+// to the parent class constructor.

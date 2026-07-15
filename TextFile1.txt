@@ -1,0 +1,11 @@
+static Members of class can be accessed using classname
+non static members of a class can be accessing using object
+static methods can hold static data only
+non-static methods can hold both static data and non static data
+
+
+Destructor : It is special method , Its name and class name are same along with tilte(~)
+operator.
+
+		     It will not return type
+			 It will be called afater completing the functionaliites of the all object

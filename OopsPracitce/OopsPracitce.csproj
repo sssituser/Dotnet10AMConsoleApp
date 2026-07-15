@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BC9FDBD9-1B2E-4AC8-897E-8F1BA1FFC8BD}</ProjectGuid>
+    <ProjectGuid>{844CFE20-4560-43B4-8964-0F928CED2290}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LoopControllStructures</RootNamespace>
-    <AssemblyName>LoopControllStructures</AssemblyName>
+    <RootNamespace>OopsPracitce</RootNamespace>
+    <AssemblyName>OopsPracitce</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,8 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>
-    </StartupObject>
+    <StartupObject>OopsPracitce.Class2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,34 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Class10.cs" />
-    <Compile Include="Class11.cs" />
-    <Compile Include="Class12.cs" />
-    <Compile Include="Class13.cs" />
-    <Compile Include="Class14.cs" />
-    <Compile Include="Class15.cs" />
-    <Compile Include="Class16.cs" />
-    <Compile Include="Class17.cs" />
-    <Compile Include="Class18.cs" />
-    <Compile Include="Class19.cs" />
     <Compile Include="Class2.cs" />
-    <Compile Include="Class20.cs" />
-    <Compile Include="Class21.cs" />
-    <Compile Include="Class22.cs" />
-    <Compile Include="Class23.cs" />
-    <Compile Include="Class24.cs" />
-    <Compile Include="Class25.cs" />
-    <Compile Include="Class26.cs" />
-    <Compile Include="Class27.cs" />
-    <Compile Include="Class3.cs" />
-    <Compile Include="Class4.cs" />
-    <Compile Include="Class5.cs" />
-    <Compile Include="Class6.cs" />
-    <Compile Include="Class7.cs" />
-    <Compile Include="Class8.cs" />
-    <Compile Include="Class9.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

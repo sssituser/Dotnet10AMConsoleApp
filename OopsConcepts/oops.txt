@@ -1,0 +1,170 @@
+﻿C# follows OOPS(Object Oriented Programming Structure)
+	A language is said to be Object Oriented if follows the
+	principles 
+		1. Encapsulation <--
+		2. Abastraction  <--
+		3. Inheritance   <--
+		4. Polymorphism  <--
+		5. class 
+		6. Object
+
+class : It is the blue print of the object.
+			or
+		It is collection datatypes methods.
+Note : Data Types and Method Optional.
+      In a class we may have only method(s)
+	  In a class we may have only DataType(s)
+	  In a class we may have both.
+	  In a class we maynot take both.
+	  class Name must follows PASCAL CASE Naming Convention.
+Syntax :
+		class <ClassName>{
+			Data Types;
+			Methods;=======> class members
+		}
+The Data Types and Methods of a class can be called as class members.
+These are of two types
+1.Static Members : 
+	The class members which are declared with static keyword.
+	static members.				
+	static members of a class can be accessed using class name.
+		static datatypes
+		static methods
+2.Non static Members or Instance members : 
+		The class members which are not declared with static keyword can be
+		non static members, or Instance members.
+		Non static members of a class can be accessed using object.
+		datypes
+		methods
+=====================================
+1 . In a class we can take only static data
+2 . In a class we can take only non static (Instance data)
+3 . In a class we can take only non static methods (Instnace Methods)
+4 . In a class we can take only static methods.
+
+
+
+Private Members(static data, non static data,static methods,non static emthod) of class can't be accessed
+out side of class. They are secured.
+
+======================================Access Modifiers=================================
+
+public / public static
+private / private static
+protected / protected static
+internal / internal static
+
+These acces modifers can be assigned to Classes which are present in the namespace and
+for methods whic are present class
+
+private / private static
+	private members can be accessed with in the class,They can't be accessed outside of the class.
+	private members can't inherited.
+
+protected / Protected static
+	Protected members of a class can be accessed with in the class, can't be accessed outside of the
+	class.
+	Protected members can be  Inherited.
+
+internal / interanl static
+
+Internal members can be accessed with in the class , out side of the class, they can't accesed
+outside of the namespace.
+Internal members can be Inherited.
+
+
+public / public static :
+	public members of class can be accessed inside  the class,ouside of the class, and outside namespace
+	public members can be Inherited.
+===========================================================Accessbitlity================================================
+static members can be accessed using classname
+
+
+
+
+non static members can be accessed using object
+============================================================================
+
+Object : It is realtime entity or It is the instane of a class or It is a runtime entity.
+
+purpose of the object :
+It is  used to access non static(instance members) members of a class.
+
+-------------------------------------------------------
+What is a  class ?
+	It is the blue print of the object.
+			or
+	It is the collection of data types and methods
+Object : It is the instance of the class or It is the reality of the class.
+
+
+			RAM
+				static memory===========> variables (value types data types)
+				
+				Heap memory ====reference types data can be stored in  heap memroy
+								 class,string
+								 Where classes objects.
+
+object syntax : 
+			new ClassName();
+			
+			ClassName refvariable = new ClassName()
+
+			Employee emp = new Employee() ;
+
+			
+
+
+
+
+
+		
+
+
+
+
+
+class Employee{
+	int EmpId;
+	strinng EmpName;
+	int EmpSal;
+}
+int x;
+int y;
+Employee emp = new Employee();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
