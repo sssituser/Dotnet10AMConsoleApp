@@ -1,0 +1,144 @@
+﻿Errors :
+		Errors are mistakes in the program,
+		these errors will not allow the  application to compile or
+		to execute.
+
+		Errors of two types.
+			1.Compilation Errors :
+				Error In the Code is called Compilation Errors.
+
+				The errors which will occur before the compilation, and these errors
+				will not allow the application to compile.
+
+				Syntax Errors:
+				{ -- expected
+				) - Expected
+
+				Solution :  Provide proper syntax.Then the application will be compiled
+				and ready for the execution.
+
+			2.Runtime Error:
+					No Errors Code, No Compilations Error.
+					Application Under Execution.
+					During the Execution we get the errors, these
+					erros are called Runtime Errors.
+					-------------------------------------------------------------
+					The erros which can occur during the  execution are called
+					Run time error ,Runtime Errors also called as Exceptions.
+
+					Exceptions or Runtime Errors can cause abnormal termination of
+					the appliation.
+
+					These Exceptions are predefined classes which are inherited from Exception class.
+					--------------------------------------------------------------------
+					To avoid Abnormal termination of the appilcation we use 
+					==================Exception Handling=======================
+					
+					In Exception handling we use 
+					1. try: 
+						
+						It is a block , In which we write risky code.
+						(risky code :The code in which  we excpect 	exceptions can be called risky code)
+						
+						try block will try to execute the code which present in side the
+						try block.
+						
+						if it is not , it raises exception objects internally.
+
+						try block can't be written ideally. if we write it gives compilation
+						error.
+
+						To avoid this
+
+						try block must be followed with catch or finally block
+
+
+
+					
+					2. catch
+						It is a block which can catch Exception objects which are raised in
+						the try block.
+
+						catch block is of two types
+						1. Common catch block :
+								A common catch block can catch all exceptions which are
+								raised the try block.
+
+								A catch block with Exception class or without any class
+								can be called common catch block.
+
+
+						2. Individual Catch block
+								It is block which can catch particular exception objects only..
+								The use of this  individual catch block is we send useful messages
+								to the enduser.
+
+								It is not compulsary
+					3. throw : It is a keyword which is used to throw the known exception object from
+						try block to the suitable catch block Externally.
+						It is not compulsary.
+
+
+
+					4. finally clauses.
+
+					It is a block which is used to generate the common messages to the end user
+					to initialize inital values we use finally block
+
+					----------------------------------------------------------
+					System.DivideByZeroException: Attempted to divide by zero.
+					-----------------------------------------------------------
+					In the above exception System is Namespace
+					DivideByZeroException is a class
+					Attemeted to divide by zero
+
+					This Exception will occur if we try divide any number with zero.
+					-------------------------------------------------------------------
+					System.FormatException: Input string was not in a correct format.
+					----------------------------------------------------------------
+					This Exception we get when give worng input, like
+					if it is integer, if we give input double,bool,string ...
+					===========================User Defined Exceptions========================
+					The Exceptions which are designed by the developer can be called
+					User defined exceptions or Customized Exceptions.
+
+					Steps To Create Cusomised Exception :
+						1.Create class
+						2.Create the Constructor
+						3.Inherit Exception class
+
+					How to Consume the Customize exception
+						You Thorw statement to consume
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
