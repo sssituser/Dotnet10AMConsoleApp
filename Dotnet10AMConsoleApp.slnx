@@ -4,11 +4,13 @@
   </Folder>
   <Project Path="App1/App1.csproj" Id="f73c6a90-ecb2-4080-9e2b-79c2c645665d" />
   <Project Path="App2/App2.csproj" Id="23ffc8ad-d7f5-4bc0-bd46-6461778e9fbd" />
+  <Project Path="CollectionFramework/CollectionFramework.csproj" Id="ce9702de-cc93-4e88-a0ee-496598ec7d92" />
   <Project Path="ConsoleAbstractProject/ConsoleAbstractProject.csproj" Id="ebd1f086-a822-42d8-b735-70f21da62ab4" />
   <Project Path="ConsoleAppArrays/ConsoleAppArrays.csproj" Id="3c0d8611-e63b-4ecd-a7b8-70a4023d65db" />
   <Project Path="Dotnet10AMConsoleApp/Dotnet10AMConsoleApp.csproj" Id="404f7ddd-4a7f-4b7d-9fb6-2d39a0bd4cae" />
   <Project Path="ErrorsInConsoleApp/ErrorsInConsoleApp.csproj" Id="9b17aaff-2eea-49c0-b132-9da77ce2c442" />
   <Project Path="FileHandling/FileHandling.csproj" Id="be7a2341-db70-483c-815f-4cd4109ceb9d" />
+  <Project Path="GenericsApp/GenericsApp.csproj" Id="84b28c76-2b32-4a3f-b3cd-4601fcb6a2e7" />
   <Project Path="Inheritance/Inheritance.csproj" Id="a36e9e5b-2a78-4073-8c8f-ae8457676c70" />
   <Project Path="LoopControllStructures/LoopControllStructures.csproj" Id="bc9fdbd9-1b2e-4ac8-897e-8f1ba1ffc8bd" />
   <Project Path="Methods/Methods.csproj" Id="50108216-fc24-4200-b616-7dd43d4de7ab" />

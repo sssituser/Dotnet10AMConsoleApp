@@ -1,0 +1,24 @@
+﻿using System.IO
+DriverInfo
+DirectoryInfo(folder information)
+
+A class lib is a set classes written inside the namespace .
+This is called class lib.
+These also called Assemblies or .dll(Dynamic Link Lib)
+These are of two types
+1.public Assemblies : These are also called predefind assembiles. They can be accessed in every application.
+		System;
+		System.IO;
+		System.Collections; etc......
+2.Private Assembiles are the assemblies which are created by the developer.
+		i.Creation of Assembly or .dll file
+
+			1.Create a class libe
+			2.Add the Classes 
+			3. Add the methods which we required.
+			4. build solution
+			5. .dllfile will be craeted inside the debug in bin folder
+		ii. Create an application and
+		    rt click project , select add lib.
+
+
