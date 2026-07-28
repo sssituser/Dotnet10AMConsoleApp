@@ -19,5 +19,6 @@
   <Project Path="OopsPracitce/OopsPracitce.csproj" Id="844cfe20-4560-43b4-8964-0f928ced2290" />
   <Project Path="OperatorsConsoleApp/OperatorsConsoleApp.csproj" Id="2df1dfc3-77cf-4394-be7b-2e3a5ba6ee44" />
   <Project Path="PolymorphismConsoleApp/PolymorphismConsoleApp.csproj" Id="46569b12-d451-4015-9f1b-593df85140a4" />
+  <Project Path="Properties/Properties.csproj" Id="5bb0ba0b-7513-408b-8f67-4d100784fe74" />
   <Project Path="StaticAndNonStaticProject/StaticAndNonStaticProject.csproj" Id="55ef4016-8a6b-48a7-8609-6ff2aee3d8e1" />
 </Solution>
