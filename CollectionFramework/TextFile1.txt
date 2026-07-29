@@ -1,0 +1,34 @@
+﻿Arrays :
+
+It is the collection of Homogenious elements.
+
+int[] --->integers
+float[]---->float elements
+
+The limitiations:
+=================================================
+	Homogenious Data
+	Fixed Size
+=========================================
+	Heterogenious elements
+	Not Fixed size.
+===================================CollectionFramework================
+It is  a  framework which can be used to deal with the objects.
+In order to work with the collection we use the namespace.
+1.System.Collection
+2.System.Collection.Generics
+These namespaces can hold the classes
+LIST			SET			QUEUE
+LIST<>			HASHSET<>  
+LinkeList<>		SortedSet<>
+SortedList<>
+
+Mapping
+Dictionary<K,V>  SortedDictionary<K,V>  , SortedList<K,V>
+============================================================
+It is an object which can hold multiple objects can orgnize objects
+In Collection  we can do searching , sorting , removing can be done
+		
+
+
+

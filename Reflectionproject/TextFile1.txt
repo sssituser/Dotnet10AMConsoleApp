@@ -1,0 +1,9 @@
+﻿It is the process knowing the informtion about the class and its fields, properties
+, methods, the class belongs which namespace.
+
+In order to know the information , we  use the namespace
+System.Reflection this namespace holds the class type.
+
+This Type class has static methods
+like GetMethods
+	 GetProperties
