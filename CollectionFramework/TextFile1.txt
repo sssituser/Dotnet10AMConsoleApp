@@ -29,6 +29,13 @@ Dictionary<K,V>  SortedDictionary<K,V>  , SortedList<K,V>
 It is an object which can hold multiple objects can orgnize objects
 In Collection  we can do searching , sorting , removing can be done
 		
+In order to sort the elements for employees or students which are added to the List object we need use
+CompareTo().
+This method is Available in the Interface called Comparable.
+This method must be  inherited to the respective class,
+we need provide the definition for sorting based on the propertiy
+
+
 
 
 
