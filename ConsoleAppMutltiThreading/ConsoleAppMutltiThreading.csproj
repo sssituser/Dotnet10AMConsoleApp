@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CE9702DE-CC93-4E88-A0EE-496598EC7D92}</ProjectGuid>
+    <ProjectGuid>{3F6C06C0-5C8A-40E4-909D-EE0FA059E0AC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CollectionFramework</RootNamespace>
-    <AssemblyName>CollectionFramework</AssemblyName>
+    <RootNamespace>ConsoleAppMutltiThreading</RootNamespace>
+    <AssemblyName>ConsoleAppMutltiThreading</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>CollectionFramework.Class12</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,32 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Class10.cs" />
-    <Compile Include="Class11.cs" />
-    <Compile Include="Class12.cs" />
-    <Compile Include="Class2.cs" />
-    <Compile Include="Class3.cs" />
-    <Compile Include="Class4.cs" />
-    <Compile Include="Class5.cs" />
-    <Compile Include="Class6.cs" />
-    <Compile Include="Class7.cs" />
-    <Compile Include="Class8.cs" />
-    <Compile Include="Class9.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QueueExample.cs" />
-    <Compile Include="StackExample.cs" />
-    <Compile Include="StackwithGeneric.cs" />
-    <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="TextFile1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

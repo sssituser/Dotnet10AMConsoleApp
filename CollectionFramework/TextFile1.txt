@@ -37,5 +37,14 @@ we need provide the definition for sorting based on the propertiy
 
 
 
+LIST : 
+	LIST IS OREDERED.
+	LIST ALLOWS DUPLICATES
+	LIST ALLOWS NULL VALUES.
 
+SET : SET IS UNORDERED.
+      SET ALLOWS UNIQUE ELEMENTS.
+	  SET WILL NOT ALLOW NULL VAULES.
+
+	
 
