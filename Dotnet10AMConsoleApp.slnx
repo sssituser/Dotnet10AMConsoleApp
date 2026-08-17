@@ -6,6 +6,8 @@
   <Project Path="App2/App2.csproj" Id="23ffc8ad-d7f5-4bc0-bd46-6461778e9fbd" />
   <Project Path="CollectionFramework/CollectionFramework.csproj" Id="ce9702de-cc93-4e88-a0ee-496598ec7d92" />
   <Project Path="ConsoleAbstractProject/ConsoleAbstractProject.csproj" Id="ebd1f086-a822-42d8-b735-70f21da62ab4" />
+  <Project Path="ConsoleApp1/ConsoleApp1.csproj" Id="31df1a0d-62f9-48f5-ab18-b2f45022ed93" />
+  <Project Path="ConsoleAppADO/ConsoleAppADO.csproj" Id="c50df590-0aaf-4fe6-b345-c487d62d38c4" />
   <Project Path="ConsoleAppArrays/ConsoleAppArrays.csproj" Id="3c0d8611-e63b-4ecd-a7b8-70a4023d65db" />
   <Project Path="ConsoleAppDelegates/ConsoleAppDelegates.csproj" Id="28a66e72-632c-43d0-b958-7b569dcd0f9a" />
   <Project Path="ConsoleAppMutltiThreading/ConsoleAppMutltiThreading.csproj" Id="3f6c06c0-5c8a-40e4-909d-ee0fa059e0ac" />
