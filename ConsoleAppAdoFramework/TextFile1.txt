@@ -1,0 +1,22 @@
+﻿1. Sql Connection Class
+2. Sql DataAdapter
+		This object can hold the 
+		i.query and the 
+		ii.connection object.
+		After execution of this object the data will be sotred
+		in this object.
+
+		This class non static method Called Fill , which  will
+		dataset
+		Every DataAdapter object must update dataset.
+3.SqlCommandBuider :
+	This object can hold DataAdapter object, and 
+	It can execute the DataAdapter Object, then
+	the data will be stored DataAdapter object.
+4.The data which is there dataset can be read and can be assigned
+to the different objects as well we can display on the console.
+
+
+
+
+
