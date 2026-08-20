@@ -1,0 +1,12 @@
+﻿1.EF(EntiyFramework) It is  ORM introduced by Microsoft.
+2. Object Relational Mapper.
+3. It converts database into a class and table into class, columns in the table becomes
+  properties.
+  This can be done in DATABASE FIRST APPROACH.
+
+In Entity Framework can be used in different approches
+	1.DataBase First Approach
+		In database firt approach , db ,tables can be created first , then
+		class and properties method can be created
+	2.Code First Approach.
+		In code first approach classes first and then databas ,tables will be created automatically

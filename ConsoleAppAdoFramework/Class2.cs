@@ -69,9 +69,15 @@ namespace ConsoleAppAdoFramework
                     Console.Write("Enter Employee Id   : ");
                     emp.EmpId = int.Parse(Console.ReadLine());
                     emp = bl.FindEmployee(emp);
-                    Console.WriteLine("--------------Employee Information----------------------");
-                    Console.WriteLine($"Employee Name : {emp.EmpName}\tEmployee Salary : {emp.EmpSal}");
-                    Console.WriteLine("---------------------------------------------------------");
+                    if (emp == null)
+                    {
+                        Console.WriteLine("Record Not Found With The Given Id");
+                    } else
+                    {
+                        Console.WriteLine("--------------Employee Information--------------");
+                        Console.WriteLine($"Employee Name : {emp.EmpName}\tEmployee Salary : {emp.EmpSal}");
+                        Console.WriteLine("------------------------------------------------");
+                    }
                     goto Menu;
                 case 5:
                     DataSet ds = bl.GetEmployees();

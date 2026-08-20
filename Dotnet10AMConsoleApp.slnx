@@ -2,6 +2,7 @@
   <Folder Name="/Solution Items/">
     <File Path="TextFile1.txt" />
   </Folder>
+  <Project Path="ADONETENTITYFRAMEWORK/ADONETENTITYFRAMEWORK.csproj" Id="af6364cf-8806-41c2-b564-9323a28dc054" />
   <Project Path="App1/App1.csproj" Id="f73c6a90-ecb2-4080-9e2b-79c2c645665d" />
   <Project Path="App2/App2.csproj" Id="23ffc8ad-d7f5-4bc0-bd46-6461778e9fbd" />
   <Project Path="CollectionFramework/CollectionFramework.csproj" Id="ce9702de-cc93-4e88-a0ee-496598ec7d92" />

@@ -27,32 +27,63 @@ namespace ConsoleAppAdoFramework
         }
         public bool AddEmployee(Employee emp)
         {
-            row = ds.Tables["tbl_employe"].NewRow();
-            row[0] = emp.EmpId;
-            row[1] = emp.EmpName;
-            row[2] = emp.EmpSal;
-            ds.Tables["tbl_employe"].Rows.Add(row);
-            int res = da.Update(ds, "tbl_employe");
-            return res == 1;
+            try
+            {
+                row = ds.Tables["tbl_employe"].NewRow();
+                row[0] = emp.EmpId;
+                row[1] = emp.EmpName;
+                row[2] = emp.EmpSal;
+                ds.Tables["tbl_employe"].Rows.Add(row);
+                int res = da.Update(ds, "tbl_employe");
+                return res == 1;
+            }
+            catch (ConstraintException ex)
+            {
+                Console.WriteLine($"Given Id Already Exists : {emp.EmpId}");
+                return false;
+            }
         }
         public bool UpdateEmployee(Employee emp)
         {
             row = ds.Tables["tbl_employe"].Rows.Find(emp.EmpId);
-            row[1] = emp.EmpName;
-            row[2] = emp.EmpSal;
-            int res = da.Update(ds, "tbl_employe");
-            return res == 1;
+            if (row == null)
+            {
+                return false;
+            }
+            else
+            {
+                row[1] = emp.EmpName;
+                row[2] = emp.EmpSal;
+                int res = da.Update(ds, "tbl_employe");
+                return res == 1;
+            }
+          
         }
         public bool DeleteEmployee(Employee emp)
         {
-            ds.Tables["tbl_employe"].Rows.Find(emp.EmpId).Delete();
-            int res = da.Update(ds, "tbl_employe");
-            return res == 1;
+            try
+            {
+                DataRow row = ds.Tables["tbl_employe"].Rows.Find(emp.EmpId);
+                if (row == null)
+                {
+                    return false;
+                }
+                ds.Tables["tbl_employe"].Rows.Find(emp.EmpId).Delete();
+                int res = da.Update(ds, "tbl_employe");
+                return res == 1;
+            }catch(Exception )
+            {
+                return false;
+            }
         }
 
         public Employee FindEmployee(Employee emp)
         {
             row = ds.Tables["tbl_employe"].Rows.Find(emp.EmpId);
+            if(row== null)
+            {
+                return null;
+            }
             emp.EmpName = row[1].ToString();
             // emp.EmpSal = int.Parse(row[2].ToString());
             emp.EmpSal = Convert.ToInt32(row[2].ToString());
